@@ -39,6 +39,8 @@ function dkim_parse_result(hdr) {
 		switch (dkim[1].toLowerCase()) {
 			case "pass":
 				return "Valid";
+			case "permerror":
+			case "error":
 			case "fail":
 			case "invalid":
 				return "Invalid";

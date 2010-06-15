@@ -1,0 +1,2 @@
+content     tb-dkim-headers   content/
+overlay	chrome://messenger/content/messenger.xul chrome://tb-dkim-headers/content/dkim_column.xul

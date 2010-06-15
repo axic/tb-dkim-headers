@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<overlay id='DKIMStatusOverlay' xmlns='http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul'>
+	<script type='application/x-javascript' src='chrome://tb-dkim-headers/content/dkim_column.js'/>
+	<tree id="threadTree">
+		<treecols id="threadCols">
+			<splitter class="tree-splitter" />
+			<treecol id="colDKIMStatus" persist="hidden ordinal width"
+				currentView="unthreaded" flex="2"
+				label="DKIM" tooltiptext="Click to sort by DKIM status" />
+		</treecols>
+	</tree>
+</overlay>

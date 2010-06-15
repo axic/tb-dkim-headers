@@ -6,7 +6,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>tb-dkim-headers@datira.com</em:id>
     <em:name>DKIM Headers</em:name>
-    <em:version>1.0</em:version>
+    <em:version>1.1</em:version>
     <em:creator>Alex Beregszaszi</em:creator>
     <em:homepageURL>http://github.com/axic/tb-dkim-headers</em:homepageURL>
 

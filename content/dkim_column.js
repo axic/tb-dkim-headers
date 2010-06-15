@@ -33,9 +33,9 @@ function dkim_parse_result(hdr) {
 	if (res == null)
 		return "Unsigned";
 
-	var dkim = res.match(/^.*dkim=([a-zA-Z^ ]+) .*$/m);
-//	dump("dkim regexp match="+dkim+"\n");
+	var dkim = res.match(/^.*dkim=([a-zA-Z]+).*$/m);
 	if (dkim != null && dkim[1] != null) {
+//		dump("dkim regexp match="+dkim[1]+"\n");
 		switch (dkim[1].toLowerCase()) {
 			case "pass":
 				return "Valid";

@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 
 # If anyone knows an easier way, don't hesitate to tell :)
 VERSION=`grep -e "<em:version>\(.*\)<\/em:version>" install.rdf | sed "s/.*<em:version>\(.*\)<\/em:version>.*/\1/"`

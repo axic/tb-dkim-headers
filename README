@@ -1,0 +1,5 @@
+This is a simple Thunderbird extension which adds a new column to the message view: DKIM. This column displays the DKIM validation result: Valid or Invalid or Unsigned if no DKIM header was found. Only DKIM aware mail servers will add the Authentication-Results header to emails, which is required for this extension. For more information on DKIM, please see http://www.dkim.org/.
+
+Also note that upon installing this extension folders need to be reindexed in order to use the DKIM column.
+
+Mozilla Addons url: https://addons.mozilla.org/en-US/firefox/addon/179543/
